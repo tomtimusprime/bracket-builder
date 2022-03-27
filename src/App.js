@@ -1,10 +1,16 @@
 import './App.css';
-import Card from './components/UI/Card';
-import { Route, Link } from 'react-router-dom';
+import BracketBoard from './components/Pages/BracketBoard';
+import Home from './components/Pages/Home';
+import { Route, Link, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>Hello World</div>
+    <div className='App'>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/board" element={<BracketBoard />} />
+      </Routes>
+    </div>
   );
 }
 

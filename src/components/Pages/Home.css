@@ -1,0 +1,38 @@
+.new-bracket {
+    background-color: #0da12d;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-bracket button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #063d12;
+    background-color: #063d12;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-bracket button:hover,
+  .new-bracket button:active {
+    background-color: #011b01;
+    border-color: #011b01;
+  }
+  
+  .new-bracket button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-bracket button.alternative:hover,
+  .new-bracket button.alternative:active {
+    background-color: #09a109;
+  }
