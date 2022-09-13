@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-left {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-center {
+    display: flex;
+    flex: 0.1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-right {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+

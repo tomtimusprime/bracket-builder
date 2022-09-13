@@ -1,10 +1,10 @@
 import React from 'react';
-import Bracket from '../UI/Bracket';
+import Bracket1 from '../UI/Bracket1';
 
-const BracketBoard = () => {
+const BracketBoard = ({bracketSize}) => {
     return (
         <div>
-            <Bracket />
+            <Bracket1 bracketSize={bracketSize}/>
         </div>
     )
 }
